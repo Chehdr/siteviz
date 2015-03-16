@@ -1,0 +1,128 @@
+body{
+  background-color: #3fc8f4;
+  font-family: 'Open Sans';    
+  font-weight: 300;    
+  color: white; 
+  
+}
+.img {    
+    background-image: url(head.png);
+    background-repeat: no-repeat;
+    height: 206px;
+
+  }
+  .menu {
+    margin-top:-85px;
+    padding-bottom: 45px;
+    padding-left: 90px;
+
+  }
+  .atext {        
+    line-height: 20px;     
+    font-style: normal;      
+    font-size: 62px;
+    padding: 50px;}
+
+    .btext{  
+    line-height: 43px;      
+    font-style: normal;    
+    font-size: 26px;        
+    padding-left: 104px;
+    height: 0px;  }
+
+    .c{    
+    border-left: 3px solid white;
+    float: right;
+    margin-top: -26px;
+    height: 172px;
+    width: 49.5%;}
+
+    .about {  
+    height: 915px;
+    background-color: rgb(97, 239, 104);
+    margin-left: -8px;
+    margin-right: -7px;}
+
+  .abountHead{ 
+    height: 50px;
+    margin-top: 51px;
+    background-color: rgb(21, 181, 53);
+    font-size: 40px;
+    text-align: center;
+    padding: 50px;
+    margin-left: 0px;
+}
+
+  .textAbout{
+    font-size: 31px;
+    padding-left: 92px;
+    text-align: center;
+    text-indent: 54px;
+    line-height: 72px;
+    }
+
+  .quation {    font-size: 19px;
+    line-height: 42px;
+    padding-left: 134px;
+    padding-right: 34px;}
+
+  .contact { 
+  background-color: rgb(39, 91, 160);
+  margin-left: -8px;
+  margin-right: -7px;}
+
+  .aboutHead {height: 50px;
+  background-color: rgb(59, 69, 108);
+  font-size: 40px;
+  text-align: center;
+  padding: 50px;}
+
+
+div#hover :hover {
+  background-color: rgb(133, 216, 242);
+  padding-right: 98px;
+  width: 495px;
+  padding-left: 98px;
+  background-image: url(arr.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  -webkit-transition: background 0.3s, box-shadow 0.3s;
+  -moz-transition: background 0.3s, box-shadow 0.3s;
+  transition: background 0.4s, box-shadow 0.4s;}
+
+#slide {  
+  background-image: url(slide.png);
+  background-size: 656px;
+  background-repeat: no-repeat;
+  height: 410px;
+  margin-left: 48%;
+  margin-top: -175px;
+}
+
+  #outText{
+  font-weight: 500;
+  font-style: normal;
+  font-size: 27px;
+  padding-left: 56px;
+  text-align: center;}
+
+  .button{
+  background-color: #e7792b;
+  text-decoration: none;
+  font-size: 26px;
+  padding: 17px 20px 17px 20px;
+  margin-left: 85%;
+  color: white;
+  }
+
+  .buttonmenu{
+   background-color: #e7792b;
+  color: white;
+  text-decoration: none;
+  font-size: 26px;
+  padding: 17px 20px 17px 20px;
+  }
+
+  .studio {font-size: 31px;
+    text-align: center;
+    line-height: 72px;}
