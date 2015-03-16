@@ -1,0 +1,91 @@
+<head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+      <link rel="stylesheet" href="style.css">
+      <script type="text/javascript">
+    function select(num){
+    var text;
+    var outText = document.getElementById('outText');    
+        switch(num){
+        case 1 : text = 'Development of minimum viable product (MVP) is a great way to test the initial ideas, without spending much time.'  
+        break
+        case 2 : text = 'If you are looking a way to make your application entire online, please take a look Meteor platform.'
+                break
+        case 3 : text = 'MonoSolutions is our partner. That’s why we can spread your web application to the mobile platforms.';
+                break
+        case 4 : text = 'Drived by our passion, we create web systems that help optimize your bussines.';
+                break
+            }
+            outText.innerHTML = text;
+
+    }
+    function leave(){
+        var outText = document.getElementById('outText').innerHTML = 'Lean and Agile Development Agency'; 
+
+    }
+      </script>
+      <style>
+    </style>
+</head>
+<body>
+    <div class="img">   
+    </div>
+    <div id="slide">   
+    </div>
+<div class="menu">
+    <div style="display: inline;">
+        <a class="buttonmenu" href="#about" style="background-color: #e7792b;    color: white;    text-decoration: none;    font-size: 26px;    padding: 17px 20px 17px 20px;">About</a></div>
+        <div style="display: inline;padding-left: 48px;">
+            <a class="buttonmenu" href="#contact" style="background-color: #e7792b;    color: white;    text-decoration: none;    font-size: 26px;    padding: 17px 20px 17px 20px;">Contact</a></div>
+</div>
+<div class="service">
+   <div class="atext">
+  Our Services
+   </div>
+
+<div>
+  <ul class="btext">
+    <li id="a" onmouseover="select(1)" onmouseout="leave()"><div id="hover">Menium Value Product (MVP) </div></li>
+	  <li id="a" onmouseover="select(2)" onmouseout="leave()"><div id="hover">Development of Real-time applications</div></li>
+    <li id="a" onmouseover="select(3)" onmouseout="leave()"><div id="hover">Cross-platform applications</div></li>
+    <li id="a" onmouseover="select(4)" onmouseout="leave()"><div id="hover">ERP systems</div></li>
+    </ul>
+   </div>
+   <div class="c">
+    <p id="outText" style="  font-weight: 500;font-style: normal;font-size: 27px;padding-left: 56px;text-align: center;">Lean and Agile Development Agency</p>
+</div>
+</div><div style="padding-top: 200px;">
+    <a class="button" style="  background-color: #e7792b;text-decoration: none;font-size: 26px;padding: 17px 20px 17px 20px;margin-left: 85%;
+  color: white;" href="http://jssolutionsdev.com/">Try it now</a>
+    </div>
+<div class="about" id="about">
+    <div class="abountHead">About</div>
+<div class="about">
+<p  class="textAbout">JSSolutions is an outsourcing company for venture start-ups and small enterprises business that provide stable products by using modern JavaScript technologies. Our main framework is Meteor.js. We have worked with real time, social applications and other venture projects.</p>
+
+<h1 style="text-align: center;
+">Why should you choose our company?</h1>
+    <ul class="quation">
+<li>If you are looking for Meteor.js developers to turn your idea into a beautiful web application, then you have arrived at the right place. With JSSolutions as your partner, you will have an attentive team by your side with years of experience in developing high-quality JavaScript applications, all without breaking the bank.</li>
+
+<li>We use JavaScript as the main programming language for the development of Saas solutions. Concentrating on the certain programming language helps to develop modern web applications quickly and qualitatively</li>
+
+<li>All the team works in the same office, so we don't have any problems in communicating. Our team can discuss your project and offer the best solution to the problem.</li>
+
+<li>While working with us you will receive daily and weekly report on the performed tasks. You will be able to thoroughly control the process of development and manage without wasting time.</li>
+
+<li>We are reliable partners. Clients from the USA, the UK, Belgium and Canada trust us.</li>
+</ul>
+</div>
+    </div>
+<div class="contact" id="contact" style="height: 386px;">
+    <div class="aboutHead" style="height: 50px;background-color: rgb(59, 69, 108);font-size: 40px;text-align: center;padding: 50px;">Contact</div>
+<div class="contact">
+<p class="studio" style="font-size: 31px;text-align: center;line-height: 72px;">JSSolutions - Venture Studio</p>
+
+<h1 style="
+    text-align: center;
+">hr@jssolutionsdev.com</h1>
+</div>
+    </div>
+
+</body>
